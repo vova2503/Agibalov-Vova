@@ -44,7 +44,7 @@ return [
     'lock' => [
         'provider' => 'db',
         'config' => [
-            'prefix' => NULL
+            'prefix' => null
         ]
     ],
     'cache_types' => [
@@ -66,5 +66,9 @@ return [
     ],
     'install' => [
         'date' => 'Thu, 10 Oct 2019 08:20:31 +0000'
+    ],
+    'downloadable_domains' => [
+        'vova.local',
+        'vova-agibalov.local'
     ]
 ];
